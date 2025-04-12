@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body class='light'>
+	<div class="container">
+		<h1>Переключатель темы</h1>
+		<p>press button for change temh</p>
+		<button id='toggle'>temh</button>
+	</div>[j]
+	<script>
+		const body = document.body
+		const btn = document.getElementById('toggle')
+
+		btn.addEventListener('click', ()=>{
+			body.classList.toggle('white')
+			body.classList.toggle('blue')
+			body.classList.toggle('red')
+		})
+
+	</script>
+	
+</body>
+</html>

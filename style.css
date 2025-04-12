@@ -1,0 +1,41 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	transition: background-color 0.3s, color 0.3s;	
+}
+.container{
+	text-align: center;
+	margin-bottom: 20%;
+}
+button{
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+	border: none;
+	border-radius: 6px;
+}
+body.white{
+	background-color: white;
+	color: black;
+}
+button.light{
+	background-color: red;
+	color: white;
+}
+body.blue{
+	background-color: blue;
+	color: white;
+}
+button.blue{
+	background-color: blue;
+	color: white;
+}
+body.red{
+	background-color: red;
+	color: white;
+}
+button.red{
+	background-color: red;
+	color: white;
+}
